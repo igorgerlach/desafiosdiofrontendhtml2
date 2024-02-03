@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #d1d1d1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(201, 201, 201);
+    padding: 10px 20px 0px;
+    border-color: rgb(189, 205, 238);
+    border-style: solid;
+}
+.header {
+    background-color: rgb(172, 248, 253);
+    min-height: 150px;
+    text-align: center;
+    border-color: rgb(189, 234, 240);
+    border-style: solid;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    border-color: rgb(222, 222, 223);
+    border-style: solid;
+}
+.footer {
+    background-color: rgb(122, 156, 250);
+    min-height: 150px;
+    border-color: rgb(141, 179, 253);
+    border-style: solid;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: #d1d1d1;
+}
+table tbody tr:nth-child(odd) td{
+    background-color: #eeeeee;
+}
+
+table thead tr {
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
